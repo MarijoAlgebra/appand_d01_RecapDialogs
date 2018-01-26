@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unesi ime i prezime"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:inputType="text"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnIspis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ispis" />
+
+</LinearLayout>
